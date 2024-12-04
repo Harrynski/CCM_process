@@ -30,7 +30,7 @@ def expected_returns_2(selected_value=1, B_value = 1) -> float:
     
 #Ahora supongamos que B esta al tanto de esta elección y entonces elige siempre 33
 
-def expected_returns_3(selected_value=1, B_value = 11) -> float:
+def expected_returns_3(selected_value=1, B_value = 33) -> float:
     if selected_value < B_value:
         expected_return = selected_value
         
@@ -63,6 +63,6 @@ if __name__ == "__main__":
     #        key_name = str(value) + "-" + str(value_b)
     #        returns[key_name] = expected_returns_3(selected_value=value, B_value=value_b)
     for value in range(0,101):
-        returns[value] = expected_returns_3(selected_value=value, B_value=11)
+        returns[value] = expected_returns_3(selected_value=value, B_value=33)
     plot_dictionary_values(returns)
     

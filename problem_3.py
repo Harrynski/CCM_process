@@ -11,7 +11,7 @@ def main(N):
             dry += 1
     return(rain / (rain + dry))
 
-trials = [10,100,100000,1000000]    
+trials = [10,100,100000,1000000, 10000000, 100000000, 1000000000]    
 
 for N in trials:
     print(N, "      :        ", main(N))

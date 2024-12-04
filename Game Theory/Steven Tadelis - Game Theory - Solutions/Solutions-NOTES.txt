@@ -1,0 +1,5 @@
+the official manuals, as obtained from Princeton.
+please note that these are the "latest" manuals (as of 2023), even though the manuals themselves state that "a complete version is expected by March 15, 2013".
+the student version is freely available at the URL below (as of 2023); it has been obtained for the sake of completeness:
+  https://press.princeton.edu/student-resources/game-theory
+  at: https://press.princeton.edu/books/hardcover/9780691129082/game-theory#resources
